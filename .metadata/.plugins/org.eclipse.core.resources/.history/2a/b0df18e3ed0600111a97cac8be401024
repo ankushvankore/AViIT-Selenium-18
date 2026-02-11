@@ -1,0 +1,10 @@
+package com.BasicDemos;
+
+public class D03Operators {
+	public static void main(String[]args) {
+		int no1 = 10, no2 = 3;
+		double ans = (double) no1 / no2;
+		
+		System.out.println("Answer: " + ans);
+	}
+}

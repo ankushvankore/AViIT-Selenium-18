@@ -1,0 +1,20 @@
+package com.BasicDemos;
+
+public class D03Operators {
+	public static void main(String[]args) {
+		int no1 = 10, no2 = 3;
+		double ans = (double) no1 / no2;
+		//Type Casting / Conversion
+		
+		System.out.println("Answer: " + ans);
+		
+		int no3 = (int)ans;
+		System.out.println("No3: " + no3);
+		
+		int rem = no1 % no2;
+		System.out.println("Reminder: " + rem);
+		
+		no1 += 5;
+		System.out.println("No1: " + no1);
+	}
+}

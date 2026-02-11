@@ -1,0 +1,14 @@
+package com.BasicDemos;
+
+public class D02DisplayData {
+	public static void main(String[]args) {
+		int no1 = 10;
+		String name = "Dhanashri";
+		float avg = 89.8f;
+		double pi = 3.142;
+		boolean isSelected = true;
+		char grade = 'A';
+		
+		
+	}
+}

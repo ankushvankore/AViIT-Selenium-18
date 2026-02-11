@@ -1,0 +1,30 @@
+package com.BasicDemos;
+
+import java.util.Scanner;
+
+public class D04AcceptTheData {
+
+	public static void main(String[] args) {
+		int no1;
+		double avg;
+		String name;
+		
+		//For accepting the data create object of Scanner class
+		Scanner scn = new Scanner(System.in);
+		
+		System.out.println("Enter number: ");
+		no1 = scn.nextInt();
+		//Will accept one int value and will store in the variable no1
+		
+		System.out.println("Enter Average: ");
+		avg = scn.nextDouble();
+		
+		System.out.println("Enter Name: ");
+		name = scn.next();
+		
+		System.out.println("No1    : " + no1);
+		System.out.println("Average: " + avg);
+		System.out.println("Name   : " + name);
+	}
+
+}
