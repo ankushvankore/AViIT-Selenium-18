@@ -1,0 +1,17 @@
+package com.ConditionalStatements;
+
+import java.util.Scanner;
+
+public class D08SwitchCaseDemo {
+
+	public static void main(String[] args) {
+		int  day;
+		Scanner scn = new Scanner(System.in);
+		
+		System.out.println("Enter Any number: ");
+		day = scn.nextInt();
+		
+		
+	}
+
+}

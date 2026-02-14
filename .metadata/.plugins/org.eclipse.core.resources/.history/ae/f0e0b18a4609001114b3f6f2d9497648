@@ -1,0 +1,31 @@
+package com.ConditionalStatements;
+
+import java.util.Scanner;
+
+public class D05ProfitLoss {
+
+	public static void main(String[] args) {
+		int Purchase, selling, amount;
+		Scanner scn = new Scanner(System.in);
+		
+		System.out.println("Enter Purchase Amount");
+		Purchase = scn.nextInt();
+		System.out.println("Enter selling amount");
+		selling = scn.nextInt();
+		
+		amount = selling - Purchase;
+		
+		if (amount == 0) {
+			System.out.println("No Profit No Loss");
+
+		}
+		if (amount > 0) {
+			System.out.println("Profit: " + (selling - Purchase));
+		} else 
+		{
+			System.out.println("Loss: " + (Purchase - selling));
+		}
+
+	}
+
+}

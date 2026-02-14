@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;Purchase&apos; in &apos;com.ConditionalStatements.D05ProfitLoss.main(...)&apos; to &apos;purchase&apos;&#x0D;&#x0A;- Original project: &apos;J01JavaLanguageBasics&apos;&#x0D;&#x0A;- Original element: &apos;com.ConditionalStatements.D05ProfitLoss.main(String[]).Purchase&apos;&#x0D;&#x0A;- Renamed element: &apos;Purchase&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;Purchase&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.ConditionalStatements{D05ProfitLoss.java[D05ProfitLoss~main~\[QString;@Purchase!144!173!148!155!I!0!false" name="purchase" references="true" stamp="1771033779651" version="1.0"/>
+</session>
