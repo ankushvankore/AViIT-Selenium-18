@@ -1,0 +1,10 @@
+package com.LoopDemos;
+
+public class D06DoWhileLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

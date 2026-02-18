@@ -1,0 +1,14 @@
+package com.FunctionDemos;
+
+public class D01SimpleFunction {
+
+	public static void sayHello() {		//Fun Definition
+		System.out.println("Hello From Function!!!");
+	}
+	
+	public static void main(String[] args) {
+		sayHello();			// Fun Call
+		sayHello();
+	}
+
+}
