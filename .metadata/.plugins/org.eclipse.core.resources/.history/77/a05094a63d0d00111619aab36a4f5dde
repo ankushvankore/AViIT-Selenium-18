@@ -1,0 +1,12 @@
+package com.ArrayDemos;
+
+public class D03ArrayInitilization2 {
+
+	public static void main(String[] args) {
+		int[] marks = {65, 76, 56, 77, 87, 45};
+		
+		for(int i = 0; i < 6; i++)
+			System.out.println(marks[i]);
+	}
+
+}

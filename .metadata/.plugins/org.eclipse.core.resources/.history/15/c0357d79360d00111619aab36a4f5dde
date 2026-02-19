@@ -1,0 +1,29 @@
+package com.FunctionDemos;
+
+public class D07FunctionOverloading {
+
+	public static void calculateSum1(int n1, int n2) {
+		int ans = n1 + n2;
+		System.out.println("Answer: " + ans);
+	}
+	public static void calculateSum2(int n1, int n2, int n3) {
+		int ans = n1 + n2 + n3;
+		System.out.println("Answer: " + ans);
+	}
+	public static void calculateSum3(double n1, double n2) {
+		double ans = n1 + n2;
+		System.out.println("Answer: " + ans);
+	}
+	public static void calculateSum4(int n1, double n2) {
+		double ans = n1 + n2;
+		System.out.println("Answer: " + ans);
+	}
+	public static void calculateSum5(double n1, int n2) {
+		double ans = n1 + n2;
+		System.out.println("Answer: " + ans);
+	}
+	
+	public static void main(String[] args) {
+	}
+
+}

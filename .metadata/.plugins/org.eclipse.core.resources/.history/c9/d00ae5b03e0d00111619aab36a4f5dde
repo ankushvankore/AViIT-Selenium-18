@@ -1,0 +1,29 @@
+package com.ArrayDemos;
+
+import java.util.Arrays;
+
+public class D03ArrayInitilization2 {
+
+	public static void main(String[] args) {
+		int[] marks = {65, 76, 56, 77, 87, 45, 89};
+		
+		//length is the property of array which will give you the size of array
+		
+		for(int i = 0; i < marks.length; i++)
+			System.out.println(marks[i]);
+		
+		Arrays.sort(marks);
+		
+		System.out.println("----------- After Sorting ----------");
+		
+		//for-each / enhanced for loop
+		//This loop is used to iterate over any collection like array, list, set, map
+		
+		for(int m : marks) {
+			System.out.println(m);
+		}
+		
+		String[] fruits = {"Apple", "Grapes", "Banana", "Watermelon", "Orange"};
+	}
+
+}
