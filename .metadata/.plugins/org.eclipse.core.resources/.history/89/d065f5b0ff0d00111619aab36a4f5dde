@@ -1,0 +1,39 @@
+package com.ArrayDemos;
+
+public class D04StringDemo {
+
+	public static void main(String[] args) {
+		/*
+		 * String - String is class in java
+		 * It is non permeative data type in java
+		 * It is 1D array of characters
+		 * String is first class object in java
+		 */
+		String fName = new String("Dhanashri");
+		String lName = "Thorat";
+		
+		System.out.println("First Name: " + fName);
+		System.out.println("Last Name : " + lName);
+		
+		System.out.println("Index of D: " + fName.indexOf("D"));
+		System.out.println("Index of a: " + fName.indexOf("a"));
+		System.out.println("Index of D: " + fName.indexOf("t"));
+		
+		System.out.println("Element at index 2: " + lName.charAt(2));
+		
+		String str1 = "Selenium", str2 = "Selenium WebDriver", str3 = "selenium";
+		
+		if(str1.equals(str2))
+			System.out.println("Both strings are equal");
+		else
+			System.out.println("Both strings are not equal");
+		
+		if(str1.equalsIgnoreCase(str3))
+			System.out.println("Both strings are equal considering case");
+		else
+			System.out.println("Both strings are not equal");
+		
+		
+	}
+
+}
