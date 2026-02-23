@@ -1,7 +1,0 @@
-package com.BasicDemos;
-
-public class D03CalculateAreaOfCircle {
-	public static void main(String[] args) {
-		
-	}
-}
