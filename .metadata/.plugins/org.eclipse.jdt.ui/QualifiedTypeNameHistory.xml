@@ -5,4 +5,9 @@
     <fullyQualifiedTypeName name="com.ClassDemos.MyDate"/>
     <fullyQualifiedTypeName name="com.ClassDemos.Employee"/>
     <fullyQualifiedTypeName name="com.FunctionDemos.D02PassingParameters"/>
+    <fullyQualifiedTypeName name="com.InheritanceDemos.Employee"/>
+    <fullyQualifiedTypeName name="com.InheritanceDemos.Manager"/>
+    <fullyQualifiedTypeName name="com.AbstractDemos.Shape"/>
+    <fullyQualifiedTypeName name="com.AbstractDemos.Rectangle"/>
+    <fullyQualifiedTypeName name="com.AbstractDemos.PrintInfo"/>
 </qualifiedTypeNameHistroy>
