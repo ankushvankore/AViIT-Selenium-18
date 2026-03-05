@@ -27,6 +27,8 @@ public class D01ListDemo1 {
 		
 		for(String f : fruits)
 			System.out.println(f);
+		
+		System.out.println(fruits.contains("Banana"));
 	}
 
 }
