@@ -27,7 +27,13 @@ public class D09LocateByCssSelector_SpecialCharacters {
 		WebElement retypePassword = driver.findElement(By.cssSelector("input[placeholder*='type']"));
 		retypePassword.sendKeys("dhanashri@123");
 		
+		//WebElement username = driver.findElement(By.cssSelector("input[placeholder=\"Username\"]"));
 		
+		String str = "Dhana\"shri\"";
+		int age = 22;
+		System.out.println(str);
+		
+		System.out.println("My name is " + str + " my age is " + age);
 	}
 
 }
