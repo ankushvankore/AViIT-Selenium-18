@@ -10,9 +10,11 @@ public class D12LocateByXPath_Absolute {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
-		driver.get("https://www.echotrak.com/Login.aspx?ReturnUrl=%2f");
+		driver.get("https://register.rediff.com/register/register.php?FormName=user_details");
 		
-		driver.findElement(By.xpath("html/body/div/div/div[2]/div/div[2]/div/div/div/div/form/fieldset/div[2]/fieldset/input[1]")).sendKeys("dhanashri");
+		driver.findElement(By.xpath("html/body/div[2]/div[2]/form/div/div[2]/input")).sendKeys("Dhanashri Thorat");
+		driver.findElement(By.xpath("html/body/div[2]/div[2]/form/div/div[3]/div/input")).sendKeys("dhanashrithorat");
+		
 	}
 
 }
