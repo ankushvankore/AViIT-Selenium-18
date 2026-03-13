@@ -20,7 +20,7 @@ public class D16HandlingCheckbox {
 		System.out.println("Enabled : " + chkBox.isEnabled());
 		System.out.println("Visible : " + chkBox.isDisplayed());
 		
-		if(chkBox.isSelected() == false && chkBox.isEnabled())
+		if(!chkBox.isSelected() && chkBox.isEnabled())
 			chkBox.click();
 		
 		System.out.println("------------- After ------------");
