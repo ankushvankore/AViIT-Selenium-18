@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class D08EchoechoCheckbox {
+public class A08EchoechoCheckbox {
 
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
