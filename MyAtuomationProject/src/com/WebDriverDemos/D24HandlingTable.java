@@ -40,7 +40,11 @@ public class D24HandlingTable {
         System.out.println(allRows.get(i).getText());
         System.out.println(driver.findElement(By.xpath("//table[@class=\"dataTable\"]/tbody/tr[" + (i+1) + "]")).getText());
         
-        //driver.close();
+        List<WebElement>companies = driver.findElements(By.xpath("//table[@class=\"dataTable\"]/tbody/tr/td/a"));
+        for(WebElement c : companies)
+        	System.out.println(c.getText());
+        
+        driver.close();
 	}
 
 }
