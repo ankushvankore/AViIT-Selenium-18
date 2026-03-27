@@ -2,28 +2,68 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-26T08:31:31 IST" name="Default suite" finished-at="2026-03-26T08:32:03 IST" duration-ms="31631">
+  <suite started-at="2026-03-27T08:43:55 IST" name="Default suite" finished-at="2026-03-27T08:44:07 IST" duration-ms="11243">
     <groups>
     </groups>
-    <test started-at="2026-03-26T08:31:31 IST" name="Default test" finished-at="2026-03-26T08:32:03 IST" duration-ms="31631">
-      <class name="com.TestNGDemo.D02TestOnlineShoppingApps">
-        <test-method signature="testMeesho()[pri:1, instance:com.TestNGDemo.D02TestOnlineShoppingApps@2a4fb17b]" started-at="2026-03-26T08:31:32 IST" name="testMeesho" finished-at="2026-03-26T08:31:39 IST" duration-ms="7577" status="PASS">
+    <test started-at="2026-03-27T08:43:55 IST" name="Default test" finished-at="2026-03-27T08:44:07 IST" duration-ms="11243">
+      <class name="com.TestNGDemos.D05SeleniumAssignment">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@3c41ed1d]" started-at="2026-03-27T08:43:55 IST" name="beforeTest" finished-at="2026-03-27T08:44:00 IST" duration-ms="4583" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMeesho -->
-        <test-method signature="testFlipkart()[pri:2, instance:com.TestNGDemo.D02TestOnlineShoppingApps@2a4fb17b]" started-at="2026-03-26T08:31:39 IST" name="testFlipkart" finished-at="2026-03-26T08:31:47 IST" duration-ms="7830" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@3c41ed1d]" started-at="2026-03-27T08:44:00 IST" name="beforeMethod" finished-at="2026-03-27T08:44:01 IST" duration-ms="1423" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFlipkart -->
-        <test-method signature="testMyntra()[pri:3, instance:com.TestNGDemo.D02TestOnlineShoppingApps@2a4fb17b]" started-at="2026-03-26T08:31:47 IST" name="testMyntra" finished-at="2026-03-26T08:31:57 IST" duration-ms="9980" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testDownloads()[pri:1, instance:com.TestNGDemos.D05SeleniumAssignment@3c41ed1d]" started-at="2026-03-27T08:44:01 IST" name="testDownloads" finished-at="2026-03-27T08:44:03 IST" duration-ms="1304" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMyntra -->
-        <test-method signature="testAmazon()[pri:4, instance:com.TestNGDemo.D02TestOnlineShoppingApps@2a4fb17b]" started-at="2026-03-26T08:31:57 IST" name="testAmazon" finished-at="2026-03-26T08:32:03 IST" duration-ms="6021" status="PASS">
+        </test-method> <!-- testDownloads -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@3c41ed1d]" started-at="2026-03-27T08:44:03 IST" name="afterMethod" finished-at="2026-03-27T08:44:03 IST" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAmazon -->
-      </class> <!-- com.TestNGDemo.D02TestOnlineShoppingApps -->
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@3c41ed1d]" started-at="2026-03-27T08:44:03 IST" name="beforeMethod" finished-at="2026-03-27T08:44:03 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testDocumentation()[pri:2, instance:com.TestNGDemos.D05SeleniumAssignment@3c41ed1d]" started-at="2026-03-27T08:44:03 IST" name="testDocumentation" finished-at="2026-03-27T08:44:04 IST" duration-ms="1056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDocumentation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@3c41ed1d]" started-at="2026-03-27T08:44:04 IST" name="afterMethod" finished-at="2026-03-27T08:44:04 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@3c41ed1d]" started-at="2026-03-27T08:44:04 IST" name="beforeMethod" finished-at="2026-03-27T08:44:04 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSupport()[pri:2, instance:com.TestNGDemos.D05SeleniumAssignment@3c41ed1d]" started-at="2026-03-27T08:44:04 IST" name="testSupport" finished-at="2026-03-27T08:44:05 IST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSupport -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@3c41ed1d]" started-at="2026-03-27T08:44:05 IST" name="afterMethod" finished-at="2026-03-27T08:44:05 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@3c41ed1d]" started-at="2026-03-27T08:44:05 IST" name="beforeMethod" finished-at="2026-03-27T08:44:05 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testProjects()[pri:3, instance:com.TestNGDemos.D05SeleniumAssignment@3c41ed1d]" started-at="2026-03-27T08:44:05 IST" name="testProjects" finished-at="2026-03-27T08:44:06 IST" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProjects -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@3c41ed1d]" started-at="2026-03-27T08:44:06 IST" name="afterMethod" finished-at="2026-03-27T08:44:07 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@3c41ed1d]" started-at="2026-03-27T08:44:07 IST" name="afterTest" finished-at="2026-03-27T08:44:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.TestNGDemos.D05SeleniumAssignment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
