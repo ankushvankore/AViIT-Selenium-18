@@ -33,6 +33,17 @@ public class D04Before_After_Method {
 		driver.get("https://www.amazon.in/");
 	}
 
+	@BeforeMethod
+	public void beforeMethod() {
+		System.out.println("Before Method");
+	}
+
+	@AfterMethod
+	public void afterMethod() throws InterruptedException {
+		Thread.sleep(2000);
+		System.out.println("Title: " + driver.getTitle());
+	}
+	
 	@BeforeTest
 	public void setup() {
 		driver = new ChromeDriver();
@@ -45,14 +56,5 @@ public class D04Before_After_Method {
 		driver.close();
 	}
 
-	@BeforeMethod
-	public void beforeMethod() {
-		System.out.println("Before Method");
-	}
-
-	@AfterMethod
-	public void afterMethod() throws InterruptedException {
-		Thread.sleep(2000);
-		System.out.println("Title: " + driver.getTitle());
-	}
+	
 }
