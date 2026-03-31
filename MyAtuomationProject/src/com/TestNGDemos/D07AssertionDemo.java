@@ -5,6 +5,7 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -24,11 +25,11 @@ public class D07AssertionDemo {
 		
 		actUrl = driver.getCurrentUrl();
 		
-		//Assert.assertEquals(actUrl, expUrl);
+		Assert.assertEquals(actUrl, expUrl);
 		//Assert.assertTrue(actUrl.equals(expUrl));
-		Assert.assertTrue(actUrl.contains("dashboard"));
+		//Assert.assertTrue(actUrl.contains("dashboard"));
 	}
-	//the method login is going to fetch the data from method getLoginData / method getLoginData is going to send the data to method login
+	
 	@DataProvider
 	public Object[][] getLogiData() {
 		return new Object[][] {
@@ -38,9 +39,6 @@ public class D07AssertionDemo {
 			new Object[] { "sharyu", "sharyu123" },
 			new Object[] { "admin", "admin123" },
 		};
-
-		//Object[][]data = {{1, "a"}, {2, "b"}, {3, "c"}};
-		//return data;
 	}
 
 	@AfterMethod
@@ -57,7 +55,7 @@ public class D07AssertionDemo {
 
 	@BeforeTest
 	public void beforeTest() {
-		driver = new ChromeDriver();
+		driver = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 

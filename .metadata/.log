@@ -2547,3 +2547,176 @@ java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 50070 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1611184518\testng-customsuite.xml
 java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 50070 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1611184518\testng-customsuite.xml
+!SESSION 2026-03-31 07:02:53.866 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -Dfile.encoding=UTF-8
+Command-line arguments:  -data D:\AViIT\Demos\Selenium_18 -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -Dfile.encoding=UTF-8
+
+!ENTRY org.eclipse.jface 2 0 2026-03-31 07:03:03.798
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-03-31 07:03:03.798
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79273a4f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4e26987b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-03-31 07:03:03.798
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@50bb1c1f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39342614,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-03-31 07:03:10.362
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2026-03-31 07:17:53.645
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60908 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-962529530\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 60908 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-962529530\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-03-31 07:20:52.205
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61013 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-335433151\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 61013 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-335433151\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-03-31 07:21:44.058
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61068 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--669469680\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 61068 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--669469680\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-03-31 07:23:48.863
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61164 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output\testng-failed.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 61164 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output\testng-failed.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-03-31 07:26:10.509
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61277 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1195222704\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 61277 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1195222704\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-03-31 07:53:49.695
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62035 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X01ExecuteSingleTest.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 62035 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X01ExecuteSingleTest.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-03-31 08:00:04.774
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62265 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X02ExecuteMultipleTests.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 62265 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X02ExecuteMultipleTests.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-03-31 08:06:30.397
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62428 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X03SkipSingleTest.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 62428 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X03SkipSingleTest.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-03-31 08:06:54.586
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62464 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X03SkipSingleTest.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 62464 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X03SkipSingleTest.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-03-31 08:15:42.316
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62677 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X04ExecuteClass.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 62677 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X04ExecuteClass.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-03-31 08:17:04.062
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62736 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X04ExecuteClass.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 62736 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X04ExecuteClass.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-03-31 08:24:38.944
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63041 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X05ExecuteGroup.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 63041 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X05ExecuteGroup.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-03-31 08:25:12.021
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63053 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X05ExecuteGroup.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 63053 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X05ExecuteGroup.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-03-31 08:26:50.339
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63097 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X05ExecuteGroup.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 63097 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X05ExecuteGroup.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-03-31 08:27:08.409
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63134 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X05ExecuteGroup.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 63134 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output D:\AViIT\Demos\Selenium_18\MyAtuomationProject\src\com\TestNGDemos\X05ExecuteGroup.xml

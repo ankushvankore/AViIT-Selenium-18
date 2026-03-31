@@ -13,46 +13,47 @@ import org.testng.annotations.Test;
 
 public class D05SeleniumAssignment {
 	WebDriver driver;
-	@Test (priority = 1)
+	@Test (priority = 1, groups = "CoreLinks")
 	public void testDownloads() {
 		driver.findElement(By.linkText("Downloads")).click();
 	}
 	
-	@Test (priority = 2)
+	@Test (priority = 2, groups = "CoreLinks")
 	public void testDocumentation() {
 		driver.findElement(By.linkText("Documentation")).click();
 	}
 	
-	@Test (priority = 3)
+	@Test (priority = 3, groups = "OtherLinks")
 	public void testProjects() {
 		driver.findElement(By.linkText("Projects")).click();
 	}
 	
-	@Test (priority = 2)
+	@Test (priority = 2, groups = "OtherLinks")
 	public void testSupport() {
 		driver.findElement(By.linkText("Support")).click();
 	}
 	
-	@BeforeMethod
+	@BeforeMethod (alwaysRun = true)
 	public void beforeMethod() {
 		driver.get("https://www.selenium.dev/");
 		System.out.println("Title: " + driver.getTitle());
 	}
 
-	@AfterMethod
+	@AfterMethod (alwaysRun = true)
 	public void afterMethod() {
 		System.out.println("Title: " + driver.getTitle());
 	}
 
-	@BeforeTest
+	@BeforeTest (alwaysRun = true)
 	public void beforeTest() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
-	@AfterTest
+	@AfterTest (alwaysRun = true)
 	public void afterTest() {
+		driver.close();
 	}
 
 }

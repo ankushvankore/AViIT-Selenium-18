@@ -1,247 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-28T08:35:16 IST" name="Default suite" finished-at="2026-03-28T08:35:45 IST" duration-ms="28521">
+  <suite started-at="2026-03-31T08:27:09 IST" name="Selenium Tests" finished-at="2026-03-31T08:27:15 IST" duration-ms="5781">
     <groups>
+      <group name="OtherLinks">
+        <method signature="D05SeleniumAssignment.testSupport()[pri:2, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" name="testSupport" class="com.TestNGDemos.D05SeleniumAssignment"/>
+        <method signature="D05SeleniumAssignment.testProjects()[pri:3, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" name="testProjects" class="com.TestNGDemos.D05SeleniumAssignment"/>
+      </group> <!-- OtherLinks -->
     </groups>
-    <test started-at="2026-03-28T08:35:16 IST" name="Default test" finished-at="2026-03-28T08:35:45 IST" duration-ms="28521">
-      <class name="com.TestNGDemos.D07AssertionDemo">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@5542c4ed]" started-at="2026-03-28T08:35:16 IST" name="beforeTest" finished-at="2026-03-28T08:35:23 IST" duration-ms="6985" status="PASS">
+    <test started-at="2026-03-31T08:27:09 IST" name="Execute Single Test" finished-at="2026-03-31T08:27:15 IST" duration-ms="5781">
+      <class name="com.TestNGDemos.D05SeleniumAssignment">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:09 IST" name="beforeTest" finished-at="2026-03-31T08:27:12 IST" duration-ms="2449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D07AssertionDemo@5542c4ed]" started-at="2026-03-28T08:35:23 IST" name="login" data-provider="getLogiData" finished-at="2026-03-28T08:35:26 IST" duration-ms="2770" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:12 IST" name="beforeMethod" finished-at="2026-03-31T08:27:13 IST" duration-ms="996" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@5542c4ed]" started-at="2026-03-28T08:35:26 IST" name="afterMethod" finished-at="2026-03-28T08:35:31 IST" duration-ms="4864" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSupport()[pri:2, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:13 IST" name="testSupport" finished-at="2026-03-31T08:27:14 IST" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSupport -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:14 IST" name="afterMethod" finished-at="2026-03-31T08:27:14 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D07AssertionDemo@5542c4ed]" started-at="2026-03-28T08:35:31 IST" name="login" data-provider="getLogiData" finished-at="2026-03-28T08:35:33 IST" duration-ms="2199" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dhanashri]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dhanashri123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at com.TestNGDemos.D07AssertionDemo.login(D07AssertionDemo.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:14 IST" name="beforeMethod" finished-at="2026-03-31T08:27:14 IST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@5542c4ed]" started-at="2026-03-28T08:35:33 IST" name="afterMethod" finished-at="2026-03-28T08:35:33 IST" duration-ms="84" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testProjects()[pri:3, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:14 IST" name="testProjects" finished-at="2026-03-31T08:27:15 IST" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProjects -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:15 IST" name="afterMethod" finished-at="2026-03-31T08:27:15 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D07AssertionDemo@5542c4ed]" started-at="2026-03-28T08:35:33 IST" name="login" data-provider="getLogiData" finished-at="2026-03-28T08:35:35 IST" duration-ms="2283" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@5542c4ed]" started-at="2026-03-28T08:35:35 IST" name="afterMethod" finished-at="2026-03-28T08:35:41 IST" duration-ms="5798" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D07AssertionDemo@5542c4ed]" started-at="2026-03-28T08:35:41 IST" name="login" data-provider="getLogiData" finished-at="2026-03-28T08:35:43 IST" duration-ms="2139" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sharyu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sharyu123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at com.TestNGDemos.D07AssertionDemo.login(D07AssertionDemo.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@5542c4ed]" started-at="2026-03-28T08:35:43 IST" name="afterMethod" finished-at="2026-03-28T08:35:43 IST" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D07AssertionDemo@5542c4ed]" started-at="2026-03-28T08:35:43 IST" name="login" data-provider="getLogiData" finished-at="2026-03-28T08:35:44 IST" duration-ms="781" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at com.TestNGDemos.D07AssertionDemo.login(D07AssertionDemo.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@5542c4ed]" started-at="2026-03-28T08:35:44 IST" name="afterMethod" finished-at="2026-03-28T08:35:44 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@5542c4ed]" started-at="2026-03-28T08:35:44 IST" name="afterTest" finished-at="2026-03-28T08:35:45 IST" duration-ms="477" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:15 IST" name="afterTest" finished-at="2026-03-31T08:27:15 IST" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D07AssertionDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.TestNGDemos.D05SeleniumAssignment -->
+    </test> <!-- Execute Single Test -->
+  </suite> <!-- Selenium Tests -->
 </testng-results>

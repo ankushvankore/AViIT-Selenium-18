@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Selenium Tests">
+	<test name = "Execute Single Test">
+		<classes>
+			<class name = "com.TestNGDemos.D05SeleniumAssignment">
+			</class>
+			<class name = "com.TestNGDemos.D02TestOnlineShoppingApps"></class>
+		</classes>
+	</test>
+</suite>
