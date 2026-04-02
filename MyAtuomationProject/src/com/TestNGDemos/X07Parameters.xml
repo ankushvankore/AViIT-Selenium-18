@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Selenium Tests">
+	<test name = "Execute Multiple Test">
+		<parameters>
+			<parameter name = "firstName" value = "Sagar"></parameter>
+			<parameter name = "lastName" value = "Parite"/>
+			<parameter name = "gender" value = "Male"/>
+		</parameters>
+		<classes>
+			<class name = "com.TestNGDemos.D08Parameterization">
+			</class>
+		</classes>
+	</test>
+</suite>

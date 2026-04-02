@@ -1,49 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-31T08:27:09 IST" name="Selenium Tests" finished-at="2026-03-31T08:27:15 IST" duration-ms="5781">
+  <suite started-at="2026-04-02T07:54:50 IST" name="Selenium Tests" finished-at="2026-04-02T07:54:54 IST" duration-ms="4484">
     <groups>
-      <group name="OtherLinks">
-        <method signature="D05SeleniumAssignment.testSupport()[pri:2, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" name="testSupport" class="com.TestNGDemos.D05SeleniumAssignment"/>
-        <method signature="D05SeleniumAssignment.testProjects()[pri:3, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" name="testProjects" class="com.TestNGDemos.D05SeleniumAssignment"/>
-      </group> <!-- OtherLinks -->
     </groups>
-    <test started-at="2026-03-31T08:27:09 IST" name="Execute Single Test" finished-at="2026-03-31T08:27:15 IST" duration-ms="5781">
-      <class name="com.TestNGDemos.D05SeleniumAssignment">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:09 IST" name="beforeTest" finished-at="2026-03-31T08:27:12 IST" duration-ms="2449" status="PASS">
+    <test started-at="2026-04-02T07:54:50 IST" name="Execute Multiple Test" finished-at="2026-04-02T07:54:54 IST" duration-ms="4484">
+      <class name="com.TestNGDemos.D08Parameterization">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D08Parameterization@13c9d689]" started-at="2026-04-02T07:54:50 IST" name="beforeTest" finished-at="2026-04-02T07:54:54 IST" duration-ms="3854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:12 IST" name="beforeMethod" finished-at="2026-03-31T08:27:13 IST" duration-ms="996" status="PASS">
+        <test-method signature="testPracticeAutomation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D08Parameterization@13c9d689]" started-at="2026-04-02T07:54:54 IST" name="testPracticeAutomation" finished-at="2026-04-02T07:54:54 IST" duration-ms="544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Parite]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testSupport()[pri:2, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:13 IST" name="testSupport" finished-at="2026-03-31T08:27:14 IST" duration-ms="814" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSupport -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:14 IST" name="afterMethod" finished-at="2026-03-31T08:27:14 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:14 IST" name="beforeMethod" finished-at="2026-03-31T08:27:14 IST" duration-ms="134" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testProjects()[pri:3, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:14 IST" name="testProjects" finished-at="2026-03-31T08:27:15 IST" duration-ms="966" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testProjects -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:15 IST" name="afterMethod" finished-at="2026-03-31T08:27:15 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D05SeleniumAssignment@175c2241]" started-at="2026-03-31T08:27:15 IST" name="afterTest" finished-at="2026-03-31T08:27:15 IST" duration-ms="283" status="PASS">
+        </test-method> <!-- testPracticeAutomation -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D08Parameterization@13c9d689]" started-at="2026-04-02T07:54:54 IST" name="afterTest" finished-at="2026-04-02T07:54:54 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D05SeleniumAssignment -->
-    </test> <!-- Execute Single Test -->
+      </class> <!-- com.TestNGDemos.D08Parameterization -->
+    </test> <!-- Execute Multiple Test -->
   </suite> <!-- Selenium Tests -->
 </testng-results>
