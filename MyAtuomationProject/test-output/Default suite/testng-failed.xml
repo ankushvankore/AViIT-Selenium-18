@@ -5,8 +5,9 @@
     <classes>
       <class name="com.TestNGDemos.D10POM_Client">
         <methods>
+          <include name="refreshPage"/>
           <include name="beforeTest"/>
-          <include name="registration"/>
+          <include name="registration2"/>
           <include name="afterTest"/>
         </methods>
       </class> <!-- com.TestNGDemos.D10POM_Client -->

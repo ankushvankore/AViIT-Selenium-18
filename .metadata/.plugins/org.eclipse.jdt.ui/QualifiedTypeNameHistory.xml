@@ -44,7 +44,6 @@
     <fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
     <fullyQualifiedTypeName name="java.time.Duration"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
     <fullyQualifiedTypeName name="org.testng.Assert"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeDriver"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Parameters"/>
@@ -54,4 +53,7 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+    <fullyQualifiedTypeName name="com.TestNGDemos.D10POM_Client"/>
+    <fullyQualifiedTypeName name="com.TestNGDemos.RediffUtility"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
 </qualifiedTypeNameHistroy>
