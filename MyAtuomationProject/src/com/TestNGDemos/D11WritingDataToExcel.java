@@ -4,7 +4,9 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -21,15 +23,25 @@ public class D11WritingDataToExcel {
 	XSSFCell cell;
 	
 	@Test
-	public void f() {
+	public void writeData() {
+		row = sheet.createRow(0);		//Will create 1st row
+		cell = row.createCell(0);		//Will create 1st cell inside 1st row
+		cell.setCellValue("Dhanashri");
 	}
 
 	@BeforeTest
-	public void beforeTest() {
+	public void beforeTest() throws FileNotFoundException {
+		file = new File("MyFirstExcelFile.xlsx");
+		fos = new FileOutputStream(file);
+		wb = new XSSFWorkbook();
+		sheet = wb.createSheet("My Sheet");
 	}
 
 	@AfterTest
-	public void afterTest() {
+	public void afterTest() throws IOException {
+		wb.write(fos);				//Will write the data physically to the file via fileoutputstream
+		
+		System.out.println("Data written to file!!!");
 	}
 
 }

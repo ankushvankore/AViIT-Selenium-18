@@ -4830,3 +4830,131 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IResou
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-04-09 19:55:47.806
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2026-04-09 21:01:09.688 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -Dfile.encoding=UTF-8
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -Dfile.encoding=UTF-8
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-04-09 21:04:14.402
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2026-04-09 21:04:19.231
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-04-09 21:04:19.231
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7337bd2e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4604e051,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-04-09 21:04:19.231
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4535bdc6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23e86863,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-04-09 21:04:25.738
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2026-04-10 07:31:58.680 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -Dfile.encoding=UTF-8
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -Dfile.encoding=UTF-8
+
+!ENTRY org.eclipse.jface 2 0 2026-04-10 07:32:18.944
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-04-10 07:32:18.944
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ba1c1a2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33568e26,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-04-10 07:32:18.944
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@97b84a4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35555145,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-04-10 07:32:30.576
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2026-04-10 07:49:23.758
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-examples-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-excelant-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-javadoc-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-ooxml-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-ooxml-full-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-ooxml-lite-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-scratchpad-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-codec-1.15.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-collections4-4.4.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-io-2.11.0.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-math3-3.6.1.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\log4j-api-2.18.0.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\SparseBitSet-1.2.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\commons-compress-1.21.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\commons-logging-1.2.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\curvesapi-1.07.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\jakarta.activation-2.0.1.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\jakarta.xml.bind-api-3.0.1.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\slf4j-api-1.7.36.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\xmlbeans-5.1.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61228 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1362572913\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-examples-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-excelant-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-javadoc-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-ooxml-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-ooxml-full-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-ooxml-lite-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-scratchpad-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-codec-1.15.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-collections4-4.4.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-io-2.11.0.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-math3-3.6.1.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\log4j-api-2.18.0.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\SparseBitSet-1.2.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\commons-compress-1.21.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\commons-logging-1.2.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\curvesapi-1.07.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\jakarta.activation-2.0.1.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\jakarta.xml.bind-api-3.0.1.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\slf4j-api-1.7.36.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\xmlbeans-5.1.1.jar org.testng.remote.RemoteTestNG -serport 61228 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1362572913\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-04-10 07:49:43.178
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin D:\For Selenium WebDriver\selenium-server-4.41.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-examples-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-excelant-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-javadoc-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-ooxml-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-ooxml-full-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-ooxml-lite-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-scratchpad-5.2.3.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-codec-1.15.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-collections4-4.4.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-io-2.11.0.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-math3-3.6.1.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\log4j-api-2.18.0.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\SparseBitSet-1.2.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\commons-compress-1.21.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\commons-logging-1.2.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\curvesapi-1.07.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\jakarta.activation-2.0.1.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\jakarta.xml.bind-api-3.0.1.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\slf4j-api-1.7.36.jar D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\xmlbeans-5.1.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61239 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1995155929\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\AViIT\Demos\Selenium_18\MyAtuomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.41.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.11.0.r202503091654.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.83.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-examples-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-excelant-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-javadoc-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-ooxml-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-ooxml-full-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-ooxml-lite-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\poi-scratchpad-5.2.3.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-codec-1.15.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-collections4-4.4.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-io-2.11.0.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\commons-math3-3.6.1.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\log4j-api-2.18.0.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\lib\SparseBitSet-1.2.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\commons-compress-1.21.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\commons-logging-1.2.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\curvesapi-1.07.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\jakarta.activation-2.0.1.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\jakarta.xml.bind-api-3.0.1.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\slf4j-api-1.7.36.jar:D:\For Selenium WebDriver\Apache POI 5.2.3\poi-bin-5.2.3\ooxml-lib\xmlbeans-5.1.1.jar org.testng.remote.RemoteTestNG -serport 61239 -protocol json -d D:\AViIT\Demos\Selenium_18\MyAtuomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1995155929\testng-customsuite.xml
