@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.MyTests.D03ExcelHandling">
+      <class name="com.MyTests.D05DetailedReport">
         <methods>
-          <include name="trial"/>
-          <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="ohrmlLogin2"/>
+          <include name="ohrmlLogin3"/>
         </methods>
-      </class> <!-- com.MyTests.D03ExcelHandling -->
+      </class> <!-- com.MyTests.D05DetailedReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
