@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 
-public class D06InsuranceProject {
+public class S06InsuranceProject {
 	WebDriver driver;
 	@Given("Launch Insurance Project")
 	public void launch_insurance_project() {
